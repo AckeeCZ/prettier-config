@@ -1,11 +1,25 @@
 # Prettier configuration
 
-Prettier configuration used in Ackee frontend projects.
+Prettier configuration used in Ackee's JavaScript projects.
 
-```bash
-yarn add -D prettier-config-ackee
+## How to install it
 
-// or
+1.  Install the package:
 
-npm install -D prettier-config-ackee
-```
+    ```bash
+    yarn add -D prettier-config-ackee
+
+    // or
+
+    npm install -D prettier-config-ackee
+    ```
+
+2.  Create a new file called `prettier.config.js` in the root of your project:
+
+    ```js
+    module.exports = require('prettier-config-ackee');
+    ```
+
+3.  Add prettier plugin to your editor
+
+    [Prettier - Editor Integration](https://prettier.io/docs/en/editors.html)
