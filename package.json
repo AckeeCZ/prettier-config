@@ -1,0 +1,12 @@
+{
+	"name": "prettier-config-ackee",
+	"version": "0.0.1",
+	"description": "Prettier configuration used in Ackee frontend projects.",
+	"main": "index.js",
+	"keywords": [
+		"prettier",
+		"ackee"
+	],
+	"author": "Jiří Čermák <jiri.cermak@ackee.cz>",
+	"license": "MIT"
+}
