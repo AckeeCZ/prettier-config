@@ -2,7 +2,7 @@
 
 Prettier configuration used in Ackee's JavaScript projects.
 
-## How to install it
+## Setup
 
 1.  Install the package:
 
