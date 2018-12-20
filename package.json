@@ -1,6 +1,6 @@
 {
 	"name": "prettier-config-ackee",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Shared Prettier configuration accross Ackee's projects.",
 	"main": "index.js",
 	"scripts": {
