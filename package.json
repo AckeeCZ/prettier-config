@@ -3,6 +3,9 @@
 	"version": "0.0.7",
 	"description": "Shared Prettier configuration accross Ackee's projects.",
 	"main": "index.js",
+	"scripts": {
+		"test": "echo"
+	},
 	"keywords": [
 		"prettier",
 		"prettier-config",
@@ -17,5 +20,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/AckeeCZ/prettier-config-ackee"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
