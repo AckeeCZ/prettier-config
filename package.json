@@ -1,12 +1,19 @@
 {
 	"name": "prettier-config-ackee",
 	"version": "0.0.5",
-	"description": "Prettier configuration used in Ackee's JavaScript projects.",
+	"description": "Shared Prettier configuration accross Ackee's projects.",
 	"main": "index.js",
 	"keywords": [
 		"prettier",
 		"ackee"
 	],
 	"author": "Jiří Čermák <jiri.cermak@ackee.cz>",
-	"license": "MIT"
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AckeeCZ/prettier-config-ackee/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AckeeCZ/prettier-config-ackee"
+	}
 }

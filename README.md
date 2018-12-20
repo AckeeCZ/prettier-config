@@ -1,8 +1,20 @@
+![ackee|@ackee/react-scripts](https://img.ack.ee/ackee/image/github/js)
+
+# [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AckeeCZ/prettier-config-ackee/blob/master/LICENSE) [![CI Status](https://img.shields.io/travis/com/AckeeCZ/testing-playground.svg?style=flat)](https://travis-ci.com/AckeeCZ/prettier-config-ackee) [![Dependency Status](https://img.shields.io/david/AckeeCZ/prettier-config-ackee.svg?style=flat-square)](https://david-dm.org/AckeeCZ/prettier-config-ackee)
+
 # Prettier configuration
 
-Prettier configuration used in Ackee's JavaScript projects.
+Shared Prettier configuration accross Ackee's projects.
 
-## Installation
+## Table of contents
+
+- [Installation](#installation)
+- [Usage with ESLint](#usage-with-eslint)
+- [Adding Prettier into existing codebase](#adding-prettier-into-existing-codebase)
+
+---
+
+## <a name="installation"></a>Installation
 
 1.  Install the config `prettier-config-ackee`:
 
@@ -28,7 +40,7 @@ Prettier configuration used in Ackee's JavaScript projects.
 
 ---
 
-## Usage with ESLint
+## <a name="usage-with-eslint"></a>Usage with ESLint
 
 If you're using ESLint, you want to turn off all rules that are unnecessary or might conflict with Prettier.
 
@@ -44,7 +56,7 @@ If you're using ESLint, you want to turn off all rules that are unnecessary or m
     $   npm i -D eslint-config-prettier
     ```
 
-2.  Then, add eslint-config-prettier to the "extends" array in your .eslintrc.\* file (or in `eslintConfig` object placed in `package.json`). Make sure to put it last, so it gets the chance to override other configs.
+2.  Then, add eslint-config-prettier to the "extends" array in your .eslintrc.\* file (or in `eslintConfig` object placed in `package.json`). Make sure to put `prettier` as the last one, so it can override other configs.
 
     ```json
     {
@@ -54,7 +66,7 @@ If you're using ESLint, you want to turn off all rules that are unnecessary or m
 
 ---
 
-## Adding Prettier into existing codebase
+## <a name="adding-prettier-into-existing-codebase"></a>Adding Prettier into existing codebase
 
 After adding Prettier to your project, you probably want to format all current code. Why? Because if you don't do that, then when you create your next MR, most of the changes is going to be caused by the new code formatting.
 
@@ -75,11 +87,3 @@ After adding Prettier to your project, you probably want to format all current c
    }
    ```
    This script is going to recursively format code (code = files that match the `*.{js,md,scss,css,jsx}` glob pattern) in your `src/` directory with Prettier rules from `prettier.config.js` file.
-
----
-
-## How to propose a change to the config
-
-1. Create MR with your update.
-2. Post link to the MR to [#webari](https://ackee.slack.com/messages/C07BZ9K32) Slack channel.
-3. Let the team to vote.
