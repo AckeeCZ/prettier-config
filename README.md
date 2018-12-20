@@ -22,7 +22,7 @@ Shared Prettier configuration accross Ackee's projects.
     $ yarn add -D prettier-config-ackee
     ```
 
-    or with npm`:
+    or with npm:
 
     ```bash
     $ npm i -D prettier-config-ackee

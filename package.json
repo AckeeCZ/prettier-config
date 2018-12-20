@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"keywords": [
 		"prettier",
-		"ackee"
+		"prettier-config",
+		"ackee",
+		"frontend"
 	],
 	"author": "Jiří Čermák <jiri.cermak@ackee.cz>",
 	"license": "MIT",
