@@ -1,6 +1,6 @@
 ![ackee|@ackee/react-scripts](https://img.ack.ee/ackee/image/github/js)
 
-# [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AckeeCZ/prettier-config-ackee/blob/master/LICENSE) [![CI Status](https://img.shields.io/travis/com/AckeeCZ/testing-playground.svg?style=flat)](https://travis-ci.com/AckeeCZ/prettier-config-ackee) [![Dependency Status](https://img.shields.io/david/AckeeCZ/prettier-config-ackee.svg?style=flat-square)](https://david-dm.org/AckeeCZ/prettier-config-ackee)
+# [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AckeeCZ/prettier-config-ackee/blob/master/LICENSE) [![CI Status](https://img.shields.io/travis/com/AckeeCZ/prettier-config-ackee.svg?style=flat)](https://travis-ci.com/AckeeCZ/prettier-config-ackee) [![Dependency Status](https://img.shields.io/david/AckeeCZ/prettier-config-ackee.svg?style=flat-square)](https://david-dm.org/AckeeCZ/prettier-config-ackee)
 
 # Prettier configuration
 
