@@ -1,9 +1,9 @@
 ---
-name: Frontend Prettier config change proposal
-about: A change proposal to an Prettier frontend config.
+name: Backend Prettier config change proposal
+about: A change proposal to an Prettier backend config.
 title: "{option name} Prettier option"
 labels: ''
-assignees: baierjak, cermakjiri, horaklukas, jancama2, jstorm31
+assignees: stefan-prokop-cz, vlasy, jiri-smolik, grissius
 
 ---
 
