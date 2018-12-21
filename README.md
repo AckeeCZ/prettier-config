@@ -11,6 +11,7 @@ Shared Prettier configuration accross Ackee's projects.
 - [Installation](#installation)
 - [Usage with ESLint](#usage-with-eslint)
 - [Adding Prettier into existing codebase](#adding-prettier-into-existing-codebase)
+- [An option change proposal](#an-option-change-proposal)
 
 ---
 
@@ -87,3 +88,9 @@ After adding Prettier to your project, you probably want to format all current c
    }
    ```
    This script is going to recursively format code (code = files that match the `*.{js,md,scss,css,jsx}` glob pattern) in your `src/` directory with Prettier rules from `prettier.config.js` file.
+
+## <a name="an-option-change-proposal"></a>An option change proposal
+
+**To discuss**
+
+You can find current options to discuss at [github issues](https://github.com/AckeeCZ/prettier-config-ackee/issues) page.
