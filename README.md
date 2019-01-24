@@ -1,4 +1,4 @@
-![ackee|prettier-config-ackee](https://img.ack.ee/ackee/image/github/js)
+![ackee|prettier-config-ackee](assets/ackee_git_fronted_prettier_config.png)
 
 # [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AckeeCZ/prettier-config-ackee/blob/master/LICENSE) [![CI Status](https://img.shields.io/travis/com/AckeeCZ/prettier-config-ackee.svg?style=flat)](https://travis-ci.com/AckeeCZ/prettier-config-ackee) [![Dependency Status](https://img.shields.io/david/AckeeCZ/prettier-config-ackee.svg?style=flat-square)](https://david-dm.org/AckeeCZ/prettier-config-ackee)
 
@@ -8,10 +8,10 @@ Shared Prettier configuration accross Ackee's projects.
 
 ## Table of contents
 
-- [Installation](#installation)
-- [Usage with ESLint](#usage-with-eslint)
-- [Adding Prettier into existing codebase](#adding-prettier-into-existing-codebase)
-- [An option change proposal](#an-option-change-proposal)
+-   [Installation](#installation)
+-   [Usage with ESLint](#usage-with-eslint)
+-   [Adding Prettier into existing codebase](#adding-prettier-into-existing-codebase)
+-   [An option change proposal](#an-option-change-proposal)
 
 ---
 
@@ -61,7 +61,7 @@ If you're using ESLint, you want to turn off all rules that are unnecessary or m
 
     ```json
     {
-    	"extends": ["ackee", "prettier"]
+        "extends": ["ackee", "prettier"]
     }
     ```
 
@@ -72,22 +72,22 @@ If you're using ESLint, you want to turn off all rules that are unnecessary or m
 After adding Prettier to your project, you probably want to format all current code. Why? Because if you don't do that, then when you create your next MR, most of the changes is going to be caused by the new code formatting.
 
 1. Install `prettier`
-   ```bash
-   $   yarn add -D prettier
-   ```
-   or
-   ```bash
-   $   npm i -D prettier
-   ```
+    ```bash
+    $   yarn add -D prettier
+    ```
+    or
+    ```bash
+    $   npm i -D prettier
+    ```
 2. Add script to the `package.json` of your project:
-   ```json
-   {
-   	"scripts": {
-   		"prettier": "prettier --config ./prettier.config.js --write 'src/**/*.{js,md,scss,css,jsx}'"
-   	}
-   }
-   ```
-   This script is going to recursively format code (code = files that match the `*.{js,md,scss,css,jsx}` glob pattern) in your `src/` directory with Prettier rules from `prettier.config.js` file.
+    ```json
+    {
+        "scripts": {
+            "prettier": "prettier --config ./prettier.config.js --write 'src/**/*.{js,md,scss,css,jsx}'"
+        }
+    }
+    ```
+    This script is going to recursively format code (code = files that match the `*.{js,md,scss,css,jsx}` glob pattern) in your `src/` directory with Prettier rules from `prettier.config.js` file.
 
 ## <a name="an-option-change-proposal"></a>An option change proposal
 
