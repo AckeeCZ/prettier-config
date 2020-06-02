@@ -13,6 +13,10 @@
 		"frontend"
 	],
 	"author": "Jiří Čermák <jiri.cermak@ackee.cz>",
+	"contributors": [
+		"Jiří Čermák <jiri.cermak@ackee.cz>",
+		"Michal Vlasák <michal.vlasak@ackee.cz>"
+	],
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/AckeeCZ/prettier-config-ackee/issues"
