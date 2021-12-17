@@ -6,7 +6,7 @@ module.exports = {
 	semi: true,
 	arrowParens: 'avoid',
 	printWidth: 120,
-	jsxBracketSameLine: false,
+	bracketSameLine: false,
 	trailingComma: 'all',
 	tabWidth: 4,
 };
