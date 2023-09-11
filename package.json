@@ -1,6 +1,6 @@
 {
 	"name": "@ackee/prettier-config",
-	"version": "0.0.16",
+	"version": "1.0.0",
 	"description": "Shared Prettier configuration accross Ackee's frontend projects.",
 	"main": "index.js",
 	"engines": {
