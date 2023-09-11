@@ -1,7 +1,7 @@
 export const importOrderGroups = [
   ["^(react/(.*)$)|^(react$)|^(react-native(.*)$)", "^(next/(.*)$)|^(next$)"],
 
-  ["^~/(.*)$"],
+  ["^~(.*)$"],
 
   ["^[./]"],
 ] 
