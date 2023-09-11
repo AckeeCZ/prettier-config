@@ -1,17 +1,22 @@
 {
-	"name": "prettier-config-ackee",
+	"name": "@ackee/prettier-config",
 	"version": "0.0.16",
-	"description": "Shared Prettier configuration accross Ackee's projects.",
+	"description": "Shared Prettier configuration accross Ackee's frontend projects.",
 	"main": "index.js",
-	"scripts": {
-		"test": "echo"
+	"engines": {
+		"node": ">=13"
 	},
+	"type": "module",
 	"keywords": [
 		"prettier",
 		"prettier-config",
 		"ackee",
 		"frontend"
 	],
+	"dependencies": {
+		"prettier": "^3.0.3",
+		"@ianvs/prettier-plugin-sort-imports": "^4.1.0"
+	},
 	"author": "Jiří Čermák <jiri.cermak@ackee.cz>",
 	"contributors": [
 		"Jiří Čermák <jiri.cermak@ackee.cz>",
@@ -27,5 +32,8 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"files": [
+		"index.js"
+	]
 }

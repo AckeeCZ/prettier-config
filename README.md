@@ -23,16 +23,12 @@ Shared Prettier configuration accross Ackee's projects.
     $ yarn add -D prettier-config-ackee
     ```
 
-    or with npm:
-
-    ```bash
-    $ npm i -D prettier-config-ackee
-    ```
-
-2.  Create a new file called `prettier.config.js` in the root of your project:
+2.  Create a new file called `prettier.config.mjs` in the root of your project:
 
     ```js
-    module.exports = require('prettier-config-ackee');
+    import { config } from '@ackee/prettier-config'
+    
+    export default config
     ```
 
 3.  Add prettier plugin to your editor
@@ -51,11 +47,6 @@ If you're using ESLint, you want to turn off all rules that are unnecessary or m
      $   yarn add -D eslint-config-prettier
     ```
 
-    or
-
-    ```bash
-    $   npm i -D eslint-config-prettier
-    ```
 
 2.  Then, add eslint-config-prettier to the "extends" array in your .eslintrc.\* file (or in `eslintConfig` object placed in `package.json`). Make sure to put `prettier` as the last one, so it can override other configs.
 
@@ -74,10 +65,6 @@ After adding Prettier to your project, you probably want to format all current c
 1. Install `prettier`
     ```bash
     $   yarn add -D prettier
-    ```
-    or
-    ```bash
-    $   npm i -D prettier
     ```
 2. Add script to the `package.json` of your project:
     ```json
