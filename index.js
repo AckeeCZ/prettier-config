@@ -1,4 +1,4 @@
-export const importOrderGroups = [
+exports.importOrderGroups = [
   ["^(react/(.*)$)|^(react$)|^(react-native(.*)$)", "^(next/(.*)$)|^(next$)"],
 
   ["^~(.*)$"],
@@ -6,7 +6,7 @@ export const importOrderGroups = [
   ["^[./]"],
 ] 
 
-export const generateImportOrder = (
+exports.generateImportOrder = (
   groups,
 ) => {
   const result = [];
@@ -22,7 +22,7 @@ export const generateImportOrder = (
 /**
  * @type {import('@ianvs/prettier-plugin-sort-imports').PrettierConfig}
  */
-export const config = {
+exports.config = {
   singleQuote: true,
   jsxSingleQuote: true,
   arrowParens: "avoid",
