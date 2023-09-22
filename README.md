@@ -24,9 +24,9 @@ Shared Prettier configuration accross Ackee's projects.
 2.  Create a new file called `prettier.config.mjs` in the root of your project:
 
     ```js
-    import { config } from '@ackee/prettier-config'
+    const { config } = require('@ackee/prettier-config')
     
-    export default config
+    module.exports = config
     ```
 
 3.  Add prettier plugin to your editor
@@ -68,7 +68,7 @@ After adding Prettier to your project, you probably want to format all current c
     ```json
     {
         "scripts": {
-            "prettier": "prettier --config ./prettier.config.js --write 'src/**/*.{js,md,scss,css,jsx}'"
+            "prettier": "prettier --config ./prettier.config.js --write 'src/**/*.{ts,tsx,cjs,mjs,js,md,scss,css,jsx}'"
         }
     }
     ```
